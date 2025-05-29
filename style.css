@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+video {
+  border: 2px solid #000;
+  margin-top: 10px;
+}
+.buttons {
+  margin: 20px;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+#status {
+  font-weight: bold;
+  font-size: 20px;
+}

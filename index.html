@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Face Unlock App</title>
+  <!-- Load the correct browser-ready face-api.js -->
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>👤 Face Unlock Demo</h1>
+  <video id="video" width="320" height="240" autoplay muted></video>
+
+  <div class="buttons">
+    <button onclick="registerFace()">📸 Register Face</button>
+    <button onclick="unlockWithFace()">🔓 Try to Unlock</button>
+  </div>
+
+  <p id="status">Muzamil...</p>
+</body>
+</html>
